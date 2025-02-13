@@ -1,0 +1,40 @@
+body {
+    /* background-image: url(static/img/undergroundCity.png); */
+    background-size: cover;
+    margin: 0px;
+}
+
+h1 {
+    background: linear-gradient(#333333, #000000);
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  button {
+    display: block;
+    color: white;
+    background-color: #333333;
+    border-color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li button:hover {
+    background-color: #111;
+  }
